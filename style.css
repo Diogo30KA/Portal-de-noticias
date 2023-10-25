@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body{
+    background-color: #d2d4db;
+    margin: auto;
+
+}
+#superior{
+    height: 138px;
+    width: 100%; 
+    text-align: center;
+    padding-top: 20px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #1d1d1b;
+}
+#caixaMenu{
+    width: 400px;
+    height: 415px;
+    background-color: #ffffff;
+    margin: auto;
+    border: 2px solid #000000;
+}
+#tituloMenu{
+    width: 400px;
+    height: 92px;
+    background-color: #ff6915;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+    padding-top: 18px;
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+}
+.logo{
+    width: 190px;
+    height: 80px;
+}
+#opcaoMenu{
+    width: 400px;
+    height: 288px;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+a:link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:visited{
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: #ff6915;
+}
+
+#loginMenu{
+    width: 400px;
+    height: 380px;
+    background-color: #ffffff;
+    margin: auto;
+    border: 2px solid #000000;
+    font-family: 'Oswald', sans-serif;
+}
+#tituloLogin{
+    width: 400px;
+    height: 92px;
+    background-color: #ff6915;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+    padding-top: 18px;
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+}
+#caixaLogin{
+    width: 400px;
+    height: 220px;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    padding-top: 48px;
+}
+
+#rodape{
+    border-top: 2px solid #1d1d1b;
+    width: 100%;
+    height: 60px;
+    background-color: #ff6915;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 0, 0);
+    padding-top: 30px;
+}
+
+/* portal */
+
+#superiorPortal{
+    height: 115px;
+    width: 100%; 
+    padding-top: 16px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #1d1d1b;
+}
+.logoPortal{
+    width: 190px;
+    height: 80px;
+    float: left;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #ff6915;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    float: left;
+    padding-top: 22px;
+    padding-left: 22px;
+    padding-right: 470px;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #ff6915;}
